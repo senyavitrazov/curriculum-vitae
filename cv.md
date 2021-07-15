@@ -8,7 +8,7 @@ Email: arsenii2509@gmail.com
 
 ------
 ### **Education:**
-* I am a second year student of the <abbr title="Belarusian State University of Informatics and Radioelectronics">*BSUIR*</abbr> . I study on the specialty <span title="UX/UI designer">*"Engineering-Psychological Maintenance of Information Technologies"*</span>, but trying myself in different parts of the IT-sphere and life in general. In the first year, the university studied the basics of algorithmization and programming in the C++, i.e. I know some base of this language; coursework(creating a console app) was also written in it. A small example of my code taken from coursework:
+* I am a second year student of the <span title="Belarusian State University of Informatics and Radioelectronics">*BSUIR*</span> . I study on the specialty <span title="UX/UI designer">*"Engineering-Psychological Maintenance of Information Technologies"*</span>, but trying myself in different parts of the IT-sphere and life in general. In the first year, the university studied the basics of algorithmization and programming in the C++, i.e. I know some base of this language; coursework(creating a console app) was also written in it. A small example of my code taken from coursework:
 ```c++
     string inputPassword() {
 	char ch;
@@ -61,3 +61,7 @@ Email: arsenii2509@gmail.com
 * Russian at the native speaker level
 * Belarusian as a native language
 * Partially understand Ukrainian and Polish speech
+
+----
+
+If you want to know more about me, please [write to e-mail](mailto:arsenii2509@gmail.com).
