@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum vitae</title>
+</head>
+
+<body>
+    <header>
+        <h1>Curriculum vitae</h1>
+    </header>
+    <section>
+        </h2>Arseni Glik, Student</h2>
+        <p>Last update: July 15, 2021 </p>
+        <div>
+            <p>Residence: <a target="_blank" href="https://www.google.com/maps/place/Minsk">Minsk, Belarus</a></p>
+            <p>GitHub: <a target="_blank" href="https://github.com/senyavitrazov">senyavitrazov</a></p>
+            <p>Email: <a target="_blank" href="mailto:arsenii2509@gmail.com">arsenii2509@gmail.com</a></p>
+        </div>
+    </section>
+    <section>
+        <article>
+            <h3>Education:</h3>
+            <p>I am a second year student of the
+                <span title="Belarusian State University of Informatics and Radioelectronics">BSUIR</span> . I study on
+                the
+                specialty <span title="UX/UI designer">"Engineering-Psychological Maintenance of Information
+                    Technologies"</span>, but trying myself in different parts of the IT-sphere and life in general. In
+                the
+                first year, the university studied the basics of algorithmization and programming in the C++, i.e. I
+                know
+                some base of this language; coursework(creating a console app) was also written in it. A small example
+                of my
+                code taken from coursework:
+            </p>
+            <p><code>
+                    string inputPassword() {<br>
+                char ch;<br>
+                int next = 0;<br>
+                string password;<br>
+                do<br>
+                {<br>
+                    ch = _getch();<br>
+            <br>
+                    if (ch == 13) break;<br>
+                    if (ch == '\b' && !password.empty())<br>
+                    {<br>
+                        cout << '\b';<br>
+                        cout << ' ';<br>
+                        cout << '\b';<br>
+            <br>
+                        password.pop_back();<br>
+                        continue;<br>
+                    }<br>
+                    if (isalnum((unsigned char)ch))<br>
+                    {<br>
+                        next++;<br>
+                        cout << '*';<br>
+                        password.push_back(ch);<br>
+                    }<br>
+            <br>
+                } while (next < PASSWORD_LENGHT - 1);<br>
+                cout << endl;<br>
+                return password;<br>
+            }<br>
+            </code></p>
+        </article>
+        <article>
+            <h4>Courses:</h4>
+            <p>Currently studying in <a href="https://rs.school/js-stage0/">RS School «JavaScript/Front-end. Stage
+                    0»</a>.</p>
+        </article>
+    </section>
+    <section>
+        <h3>Personal traits:</h3>
+        <ul>
+            <li>a sociable person who quickly finds a common language with people </li>
+            <li>a keen person who seeks to understand the issue in detail </li>
+            <li>adaptability and flexibility allows me to be with people on the same "wavelength" </li>
+            <li>ready to take criticism and learn from other people's experience</li>
+            <li>non-conflict person at all</li>
+        </ul>
+        <h3>Interests:</h3>
+        <ul>
+            <li>applied arts (interior design, jewelery...)</li>
+            <li>book illustration</li>
+            <li>architecture</li>
+            <li>сinematography </li>
+        </ul>
+        <h3>Languages:</h3>
+        <ul>
+            <li>English at an intermediate level</li>
+            <li>Russian at the native speaker level</li>
+            <li>Belarusian as a native language</li>
+            <li>Partially understand Ukrainian and Polish speech</li>
+        </ul>
+    </section>
+    <footer>
+        If you want to know more about me, please <a href="mailto:arsenii2509@gmail.com">write to e-mail</a>.
+    </footer>
+</body>
+
+</html>
