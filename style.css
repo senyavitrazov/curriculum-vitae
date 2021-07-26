@@ -1,8 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 /*Обнуление*/
 *{
 	padding: 0;
 	margin: 0;
 	border: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 *,*:before,*:after {
 	-moz-box-sizing: border-box;
@@ -28,8 +31,91 @@ button {cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
-ul li {list-style: none;}
+/*ul li {list-style: none;}*/
 img {vertical-align: top;}
 /*h1,h2,h3,h4,h5,h6 {font-size:inherit;font-weight: 400;}*/
 /*--------------------*/
 
+body {
+	padding: 30px;
+}
+.cv_title {
+	width: 80%;
+	padding: 10px 0;
+	margin: 15px 0;
+	border-bottom: 2px solid #D0D7DE;
+}
+.cv_title h1 {
+	font-size: 24px;
+}
+.side_info {
+	border: 2px solid black;
+	
+}
+#name {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 5px 0;
+}
+#update {
+	/*padding: 0 0 0 5px;*/
+	font-size: 85%;
+}
+.avatar {
+	width: 10%;
+	height: 10%;
+	border-radius: 50%;
+}
+.side_info {
+	width: 30%;
+	padding: 0 30px;
+
+}
+section {
+	width: 80%;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 10px 0;
+	padding: 10px 0;
+	border-bottom: 2px solid #D0D7DE;
+}
+.list li {
+	font-size: 18px;
+	margin: 0 0 5px 20px;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.abbreviation {
+	font-style: oblique;
+}
+.traits_title, #courses_title {
+	margin: 10px 0;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+#courses_title {
+	text-decoration: none;
+}
+h1,
+h3 {
+	margin: 5px 0;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#cpp {
+	font-size: 15px;
+	background-color: #F4F6F8;
+	width: 500px;
+	margin: 20px 0;
+	padding: 15px 0 15px 30px;
+	border: 1px solid #D0D7DE;
+	border-radius: 1%;
+}
+footer {
+	padding: 0 0 8% 0;
+}

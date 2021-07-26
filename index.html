@@ -11,33 +11,46 @@
 
 <body>
     <header>
-        <h1>Curriculum vitae</h1>
+        <div class="cv_title">
+            <h1>Curriculum vitae</h1>
+        </div>
     </header>
     <section>
-        </h2>Arseni Glik, Student</h2>
-        <p>Last update: July 15, 2021 </p>
-        <div>
-            <p>Residence: <a target="_blank" href="https://www.google.com/maps/place/Minsk">Minsk, Belarus</a></p>
-            <p>GitHub: <a target="_blank" href="https://github.com/senyavitrazov">senyavitrazov</a></p>
-            <p>Email: <a target="_blank" href="mailto:arsenii2509@gmail.com">arsenii2509@gmail.com</a></p>
+        <img class="avatar"
+            src="https://avatars.githubusercontent.com/u/86890132?s=400&u=837021d4cd6694bf9c1aded258e9598e84ef8c37&v=4"
+            alt="avatar">
+        <h2 id="name">Arseni Glik, Student</h2>
+        <p id="update">Last update: July 15, 2021 </p>
+        <div class="side_info">
+            <p>Residence: <a class="link" target=" _blank" href="https://www.google.com/maps/place/Minsk">Minsk,
+                    Belarus</a></p>
+            <p>GitHub: <a class="link" target="_blank" href="https://github.com/senyavitrazov">senyavitrazov</a></p>
+            <p>Email: <a class="link" target="_blank" href="mailto:arsenii2509@gmail.com">arsenii2509@gmail.com</a></p>
         </div>
     </section>
     <section>
         <article>
             <h3>Education:</h3>
             <p>I am a second year student of the
-                <span title="Belarusian State University of Informatics and Radioelectronics">BSUIR</span> . I study on
+                <span class="abbreviation"
+                    title="Belarusian State University of Informatics and Radioelectronics">BSUIR</span> . I
+                study on
                 the
-                specialty <span title="UX/UI designer">"Engineering-Psychological Maintenance of Information
-                    Technologies"</span>, but trying myself in different parts of the IT-sphere and life in general. In
+                specialty <span class="abbreviation" title="UX/UI designer">"Engineering-Psychological Maintenance of
+                    Information
+                    Technologies"</span>, but trying myself in different parts of the IT-sphere and life in
+                general. In
                 the
-                first year, the university studied the basics of algorithmization and programming in the C++, i.e. I
+                first year, the university studied the basics of algorithmization and programming in the C++,
+                i.e. I
                 know
-                some base of this language; coursework(creating a console app) was also written in it. A small example
+                some base of this language; coursework(creating a console app) was also written in it. A small
+                example
                 of my
                 code taken from coursework:
             </p>
-            <p><code>
+            <p id="cpp">
+                <code>
                     string inputPassword() {<br>
                 char ch;<br>
                 int next = 0;<br>
@@ -67,40 +80,44 @@
                 cout << endl;<br>
                 return password;<br>
             }<br>
-            </code></p>
+            </code>
+            </p>
         </article>
         <article>
-            <h4>Courses:</h4>
-            <p>Currently studying in <a href="https://rs.school/js-stage0/">RS School «JavaScript/Front-end. Stage
+            <h4 id="courses_title">Courses:</h4>
+            <p>Currently studying in <a class="link" href="https://rs.school/js-stage0/">RS School
+                    «JavaScript/Front-end.
+                    Stage
                     0»</a>.</p>
         </article>
     </section>
     <section>
-        <h3>Personal traits:</h3>
-        <ul>
+        <p class="traits_title">Personal traits:</p>
+        <ul class="list">
             <li>a sociable person who quickly finds a common language with people </li>
             <li>a keen person who seeks to understand the issue in detail </li>
             <li>adaptability and flexibility allows me to be with people on the same "wavelength" </li>
             <li>ready to take criticism and learn from other people's experience</li>
             <li>non-conflict person at all</li>
         </ul>
-        <h3>Interests:</h3>
-        <ul>
+        <p class="traits_title">Interests:</p>
+        <ul class="list">
             <li>applied arts (interior design, jewelery...)</li>
             <li>book illustration</li>
             <li>architecture</li>
             <li>сinematography </li>
         </ul>
-        <h3>Languages:</h3>
-        <ul>
-            <li>English at an intermediate level</li>
-            <li>Russian at the native speaker level</li>
-            <li>Belarusian as a native language</li>
-            <li>Partially understand Ukrainian and Polish speech</li>
+        <p class="traits_title">Languages:</p>
+        <ul class="list">
+            <li>english at an intermediate level</li>
+            <li>russian at the native speaker level</li>
+            <li>belarusian as a native language</li>
+            <li>partially understand Ukrainian and Polish speech</li>
         </ul>
     </section>
-    <footer>
-        If you want to know more about me, please <a href="mailto:arsenii2509@gmail.com">write to e-mail</a>.
+    <footer style="font-size: 18px;">
+        If you want to know more about me, please <a class="link" href="mailto:arsenii2509@gmail.com">write to
+            e-mail</a>.
     </footer>
 </body>
 
