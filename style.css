@@ -61,7 +61,7 @@ img {vertical-align: top;}
 	/*padding: 0 0 0 5px;*/
 	font-size: 85%;
 }
-section {
+section, .section {
 	width: 100%;
 	font-size: 18px;
 	line-height: 22px;
