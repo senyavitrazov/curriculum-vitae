@@ -119,6 +119,7 @@ h3 {
 	text-transform: uppercase;
 }
 #cpp {
+	display: block;
 	font-size: 15px;
 	background-color: #F4F6F8;
 	width: 40%;
@@ -126,6 +127,10 @@ h3 {
 	padding: 15px 0 15px 30px;
 	border: 1px solid #D0D7DE;
 	border-radius: 1%;
+
+}
+#cpp code {
+	padding: 0;
 }
 footer {
 	position: relative;
