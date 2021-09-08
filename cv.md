@@ -1,10 +1,10 @@
 # Curriculum vitae
 ## Arseni Glik, Student
-Last update: July 15, 2021 
+Last update: September 8, 2021 
 
 Residence: [Minsk, Belarus](https://www.google.com/maps/place/Minsk)  
-GitHub: [senyavitrazov](https://github.com/senyavitrazov)  
-Email: arsenii2509@gmail.com  
+GitHub: [senyavitrazov](https://github.com/senyavitrazov)   
+Email: [arsenii2509@gmail.com](mailto:arsenii2509@gmail.com)
 
 ------
 ### **Education:**
@@ -41,7 +41,8 @@ Email: arsenii2509@gmail.com
 }
 ```
 #### Courses:
-* Currently studying in [RS School  «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/).
+* Finished [RS School  «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/).
+* Currently studying in [RS School  «JavaScript/Front-end»](https://rs.school/js/).
 
 ### **Personal traits:**
 * a sociable person who quickly finds a common language with people  
