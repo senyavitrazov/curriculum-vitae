@@ -60,7 +60,7 @@ img {vertical-align: top;}
 	padding: 5px 0;
 }
 #update {
-	/*padding: 0 0 0 5px;*/
+	font-weight: normal;
 	font-size: 85%;
 }
 section, .section {
@@ -127,10 +127,10 @@ h3 {
 	padding: 15px 0 15px 30px;
 	border: 1px solid #D0D7DE;
 	border-radius: 1%;
-
 }
 #cpp code {
 	padding: 0;
+	width: 100%;
 }
 footer {
 	position: relative;
