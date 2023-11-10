@@ -1,1 +1,1 @@
-https://senyavitrazov.github.io/rsschool-cv/
+https://senyavitrazov.github.io/curriculum-vitae
