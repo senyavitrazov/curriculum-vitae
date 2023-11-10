@@ -24,7 +24,7 @@
                         src="https://avatars.githubusercontent.com/u/86890132?s=400&u=837021d4cd6694bf9c1aded258e9598e84ef8c37&v=4"
                         alt="avatar">
                     <h2 id="name">Arseni Glik, Student</h2>
-                    <h5 id="update">Last update: September 8, 2021</h5>
+                    <h5 id="update">Last update: November 10, 2023</h5>
                     <div class="side_info">
                         <ul class="connect">
                             <li>
@@ -46,7 +46,7 @@
             <div class="section">
                 <article>
                     <h3>Education:</h3>
-                    <p>I am a second year student of the
+                    <p>I am a fourth year student of the
                         <span class="abbreviation"
                             title="Belarusian State University of Informatics and Radioelectronics">BSUIR</span> . I
                         study on
@@ -56,52 +56,43 @@
                             of
                             Information
                             Technologies"</span>, but trying myself in different parts of the IT-sphere and life in
-                        general. In
-                        the
-                        first year, the university studied the basics of algorithmization and programming in the C++,
-                        i.e. I
-                        know
-                        some base of this language; coursework(creating a console app) was also written in it. A small
-                        example
-                        of my
-                        code taken from coursework:
+                        general. At the moment, I am completing my university studies and already working on my diploma React & Electron project, titled
+                        'Defect Tracking System for Software Products and Its Ergonomic Support,' intended for future use within the university
+                        department. I have written numerous educational projects, the access to which I can provide upon request. In these
+                        projects, I utilized various technologies such as JavaScript, TypeScript, SASS/LESS, git, webpack, React, Electron,
+                        NodeJS, and much more. For a more detailed overview of the knowledge stack used during my studies, you can refer to the
+                        courses I have completed. Here is an example of the code I wrote, taken from one of the educational projects:
                     </p>
-                    <pre id="cpp"><code>string inputPassword() {
-    char ch;
-    int next = 0;
-    string password;
-    do
-    {
-        ch = _getch();
-
-        if (ch == 13) break;
-        if (ch == '\b' &amp;&amp; !password.empty())
-        {
-            cout &lt;&lt; '\b';
-            cout &lt;&lt; ' ';
-            cout &lt;&lt; '\b';
-
-            password.pop_back();
-            continue;
-        }
-        if (isalnum((unsigned char)ch))
-        {
-            next++;
-            cout &lt;&lt; '*';
-            password.push_back(ch);
-        }
-
-    } while (next &lt; PASSWORD_LENGHT - 1);
-    cout &lt;&lt; endl;
-return password;
-}
-</code></pre>
+                    <pre id="code-wrapper"><code>&lt;div className={style.columnData}&gt;
+    &lt;img className={style.image} src={props.track?.album.images[0].url} alt="img" /&gt;
+    &lt;div&gt;
+      {props.track &amp;&amp; props.track.id === props.trackId ? (
+        &lt;span className={style.nameActive}&gt;{props.track?.name}&lt;/span&gt;
+      ) : (
+        &lt;span className={style.name}&gt;{props.track?.name}&lt;/span&gt;
+      )}
+      &lt;div className={style.artists}&gt;
+        {props.track?.artists.map((e, i, a) => (
+          &lt;Fragment key={e.id}&gt;
+            &lt;a key={e.id}&gt;{e.name}&lt;/a&gt;
+            {`${i !== a.length - 1 ? ', ' : ''}`}
+          &lt;/Fragment&gt;
+        ))}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div className={style.columnAlbum} hidden={!album}&gt;
+    {props.track?.album.name}
+  &lt;/div&gt;
+  &lt;div className={style.columnDuration}&gt;
+    {time.minutes + ':' + (String(time.seconds).length === 1 ? '0' + time.seconds : time.seconds)}
+  &lt;/div&gt;</code></pre>
                 </article>
                 <article>
                     <h4 id="courses_title">Courses:</h4>
                     <p>Finished <a class="link" target="_blank" href="https://rs.school/js-stage0/">RS School
                             «JavaScript/Front-end. Stage 0»</a>.</p>
-                    <p>Currently studying in <a class="link" target="_blank" href="https://rs.school/js/">RS School
+                    <p>Finished two parts of <a class="link" target="_blank" href="https://rs.school/js/">RS School
                             «JavaScript/Front-end»</a>.</p>
                 </article>
             </div>
@@ -133,15 +124,9 @@ return password;
         <footer>
             <p>If you want to know more about me, please <a class="link" href="mailto:arsenii2509@gmail.com">write to
                     e-mail</a>.</p>
-            <p>At the request of the school:</p>
             <p>GitHub: <a class="link" target="_blank" href="https://github.com/senyavitrazov">senyavitrazov</a>
             </p>
             <p>The year of creation - 2021.</p>
-            <div class="logo">
-                <a class="rslogo" target="_blank" href="https://rs.school/js/">
-                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo">
-                </a>
-            </div>
         </footer>
     </div>
 </body>
