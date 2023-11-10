@@ -182,18 +182,18 @@ h3 {
 	text-transform: uppercase;
 }
 
-#cpp {
+#code-wrapper {
 	display: block;
 	font-size: 15px;
 	background-color: #F4F6F8;
-	width: 50%;
+	width: 78%;
 	margin: 20px 0;
 	padding: 15px 0 15px 30px;
 	border: 1px solid #D0D7DE;
 	border-radius: 1%;
 }
 
-#cpp code {
+#code-wrapper code {
 	padding: 0;
 	width: 100%;
 }
@@ -203,7 +203,6 @@ footer {
 	margin: 1% 0;
 	font-size: 18px;
 	line-height: 22px;
-	padding: 0 0 8% 0;
 }
 
 a img {
@@ -213,16 +212,19 @@ a img {
 	top: 20px;
 }
 
-@media (max-width: 992px) {
-	#cpp {
+@media (max-width: 1000px) {
+	#code-wrapper {
 		width: 100%;
+		overflow: scroll;
 	}
 }
 
 @media (max-width: 600px) {
-	#cpp {
+	#code-wrapper {
 		font-size: 3vw;
 		line-height: 4vw;
+		padding: 5px;
+		overflow: scroll;
 	}
 
 	.info {
@@ -247,15 +249,5 @@ a img {
 	h4,
 	.traits_title {
 		text-align: center;
-	}
-
-	.logo {
-		position: relative;
-	}
-
-	.rslogo {
-		position: absolute;
-		top: 50%;
-		left: 90%;
 	}
 }
