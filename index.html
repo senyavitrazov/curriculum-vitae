@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Curriculum vitae</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="cv_title">
+                <h1>Curriculum vitae</h1>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="info">
+                    <img class="avatar"
+                        src="./assets/photo_2022.jpg"
+                        alt="avatar">
+                    <h2 id="name">Arseni Glik, Student</h2>
+                    <h5 id="update">Last update: November 10, 2023</h5>
+                    <div class="side_info">
+                        <ul class="connect">
+                            <li>
+                                <p>Email: <a class="link" target="_blank"
+                                        href="mailto:arsenii2509@gmail.com">arsenii2509@gmail.com</a></p>
+                            </li>
+                            <li>
+                                <p>Residence: <a class="link" target=" _blank"
+                                        href="https://www.google.com/maps/place/Minsk">Minsk, Belarus</a></p>
+                            </li>
+                            <li>
+                                <p>GitHub: <a class="link" target="_blank"
+                                        href="https://github.com/senyavitrazov">senyavitrazov</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="section">
+                <article>
+                    <h3>Education:</h3>
+                    <p>I am a fourth year student of the
+                        <span class="abbreviation"
+                            title="Belarusian State University of Informatics and Radioelectronics">BSUIR</span> . I
+                        study on
+                        the
+                        specialty <span class="abbreviation" title="'UX/UI designer'">"Engineering-Psychological
+                            Maintenance
+                            of
+                            Information
+                            Technologies"</span>, but trying myself in different parts of the IT-sphere and life in general. At the moment, I am completing my university
+                            studies and already working on my graduation React & Electron project, titled 'Defect Tracking System for Software Products
+                            and Its Ergonomic Support,' intended for future use within the university department. I have been studying front-end development for about two years, during which I have written numerous educational projects — access to them can be provided upon request. In theseprojects, I utilized various technologies such as JavaScript, HTML/CSS, TypeScript, SASS/LESS, git, webpack, React, Electron, NodeJS, Figma, AntDesign and much more. For a more detailed overview of the knowledge stack used during my studies, you can refer to the courses I have completed. Here is an example of the code I
+                            wrote, taken from one of the educational projects:
+                    </p>
+                    <pre id="code-wrapper"><code>&lt;div className={style.columnData}&gt;
+    &lt;img className={style.image} src={props.track?.album.images[0].url} alt="img" /&gt;
+    &lt;div&gt;
+      {props.track &amp;&amp; props.track.id === props.trackId ? (
+        &lt;span className={style.nameActive}&gt;{props.track?.name}&lt;/span&gt;
+      ) : (
+        &lt;span className={style.name}&gt;{props.track?.name}&lt;/span&gt;
+      )}
+      &lt;div className={style.artists}&gt;
+        {props.track?.artists.map((e, i, a) => (
+          &lt;Fragment key={e.id}&gt;
+            &lt;a key={e.id}&gt;{e.name}&lt;/a&gt;
+            {`${i !== a.length - 1 ? ', ' : ''}`}
+          &lt;/Fragment&gt;
+        ))}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div className={style.columnAlbum} hidden={!album}&gt;
+    {props.track?.album.name}
+  &lt;/div&gt;
+  &lt;div className={style.columnDuration}&gt;
+    {time.minutes + ':' + (String(time.seconds).length === 1 ? '0' + time.seconds : time.seconds)}
+  &lt;/div&gt;</code></pre>
+                </article>
+                <article>
+                    <h4 id="courses_title">Courses:</h4>
+                    <p>Finished <a class="link" target="_blank" href="https://rs.school/js-stage0/">RS School
+                            «JavaScript/Front-end. Stage 0»</a>.</p>
+                    <p>Finished two parts of <a class="link" target="_blank" href="https://rs.school/js/">RS School
+                            «JavaScript/Front-end»</a>.</p>
+                </article>
+            </div>
+            <div class="section">
+                <p class="traits_title">Personal traits:</p>
+                <ul class="list">
+                    <li>a sociable person who quickly finds a common language with people </li>
+                    <li>a keen person who seeks to understand the issue in detail </li>
+                    <li>adaptability and flexibility allows me to be with people on the same "wavelength" </li>
+                    <li>ready to take criticism and learn from other people's experience</li>
+                    <li>non-conflict person at all</li>
+                </ul>
+                <p class="traits_title">Interests:</p>
+                <ul class="list">
+                    <li>applied arts (interior design, jewelery...)</li>
+                    <li>book illustration</li>
+                    <li>architecture</li>
+                    <li>сinematography </li>
+                </ul>
+                <p class="traits_title"> Languages:</p>
+                <ul class="list">
+                    <li>english at an intermediate level</li>
+                    <li>russian at the native speaker level</li>
+                    <li>belarusian as a native language</li>
+                    <li>partially understand Ukrainian and Polish speech</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>If you want to know more about me, please <a class="link" href="mailto:arsenii2509@gmail.com">write to
+                    e-mail</a>.</p>
+            <p>GitHub: <a class="link" target="_blank" href="https://github.com/senyavitrazov">senyavitrazov</a>
+            </p>
+            <p>The year of creation - 2021.</p>
+        </footer>
+    </div>
+</body>
+</html>
