@@ -163,6 +163,11 @@ section,
 	font-style: oblique;
 }
 
+.columns {
+	padding: 10px 20px;
+	display: flex;
+}
+
 .traits_title,
 #courses_title {
 	margin: 10px 0;
@@ -182,6 +187,10 @@ h3 {
 	font-weight: 700;
 	font-size: 20px;
 	text-transform: uppercase;
+}
+
+.paragraph {
+	margin-top: 10px;
 }
 
 #code-wrapper {
