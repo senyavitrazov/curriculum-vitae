@@ -168,9 +168,21 @@ section,
 	display: flex;
 }
 
+.experience_list {
+  padding: 0px 40px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.experience_list li h4 {
+  text-transform: uppercase;
+}
+
 .traits_title,
 #courses_title,
-#projects {
+#projects,
+#experience_title {
 	margin: 10px 0;
 	font-weight: 700;
 	font-size: 18px;
@@ -179,7 +191,8 @@ section,
 }
 
 #courses_title, 
-#projects {
+#projects,
+#experience_title {
 	text-decoration: none;
 }
 
@@ -224,6 +237,8 @@ a img {
 	right: 20px;
 	top: 20px;
 }
+
+
 
 @media (max-width: 1000px) {
 	#code-wrapper {

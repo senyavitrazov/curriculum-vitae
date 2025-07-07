@@ -2,86 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
 
-    <title>Curriculum vitae</title>
+  <title>Curriculum vitae</title>
 </head>
 
 <body>
-    <div class="main">
-        <header>
-            <div class="cv_title">
-                <h1>Curriculum vitae</h1>
-            </div>
-        </header>
-        <main>
-            <section>
-                <div class="info">
-                    <img class="avatar"
-                        src="./assets/photo_2022.jpg"
-                        alt="avatar">
-                    <h2 id="name">Arseni Glik</h2>
-                    <h5 id="update">Last update: December 15, 2024</h5>
-                    <div class="side_info">
-                        <ul class="connect">
-                            <li>
-                                <p>Email: <a class="link" target="_blank"
-                                        href="mailto:arsenii2509@gmail.com">arsenii2509@gmail.com</a></p>
-                            </li>
-                            <li>
-                                <p>Residence: <a class="link" target=" _blank"
-                                        href="https://www.google.com/maps/place/Minsk">Minsk, Belarus</a></p>
-                            </li>
-                            <li>
-                                <p>GitHub: <a class="link" target="_blank"
-                                        href="https://github.com/senyavitrazov">senyavitrazov</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <div class="section">
-                <article>
-                    <h3>Education:</h3>
-                    <p>Graduated
-                        <span class="abbreviation"
-                            title="Belarusian State University of Informatics and Radioelectronics"
-                        >
-                            BSUIR
-                        </span>
-                        with a degree in
-                        <span class="abbreviation" title="'UX/UI designer'"> Engineering-Psychological Maintenance of Information Technologies </span>, Defended a diploma thesis on the topic 'Defect Tracking System for Software Products and Its Ergonomic Support'.
-                    </p>
-                    <p class="paragraph">
-                        Technology stack studied and used in the process of writing academic projects:
-                        <div class="columns">
-                            <ul style="flex: 1;">
-                                <li>React</li>
-                                <li>TypeScript</li>
-                                <li>JavaScript</li>
-                                <li>Webpack</li>
-                                <li>Electron</li>
-                                <li>NodeJS</li>
-                                <li>Express</li>
-                                <li>MongoDB</li>
-                            </ul>
-                            <ul style="flex: 1;">
-                                <li>HTML/CSS</li>
-                                <li>SASS/LESS</li>
-                                <li>AntDesign</li>
-                                <li>Figma</li>
-                                <li>Redux</li>
-                                <li>Mocha</li>
-                                <li>Git</li>
-                                <li>and much more...</li>
-                            </ul>
-                        </div>
-                        For a more detailed overview of the knowledge stack used during my studies, you can refer to the courses I have completed. Here is an example of the code I wrote, taken from one of the educational projects:
-                    </p>
-                    <pre id="code-wrapper"><code>&lt;div className={style.columnData}&gt;
+  <div class="main">
+    <header>
+      <div class="cv_title">
+        <h1>Curriculum vitae</h1>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="info">
+          <img class="avatar" src="./assets/photo_2022.jpg" alt="avatar">
+          <h2 id="name">Arseni Glik</h2>
+          <h5 id="update">Last update: July 7, 2025</h5>
+          <div class="side_info">
+            <ul class="connect">
+              <li>
+                <p>Email: 
+                  <a class="link" target="_blank" href="mailto:arsenii2509@gmail.com">
+                    arsenii2509@gmail.com
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>Residence: 
+                  <a class="link" target=" _blank" href="https://www.google.com/maps/place/Minsk">
+                    Minsk, Belarus
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>GitHub: 
+                  <a class="link" target="_blank" href="https://github.com/senyavitrazov">
+                    senyavitrazov
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="section">
+        <article>
+          <h3>Education:</h3>
+          <p>Graduated
+            <span class="abbreviation" title="Belarusian State University of Informatics and Radioelectronics">
+              BSUIR
+            </span>
+            with a degree in
+            <span class="abbreviation" title="'UX/UI designer'">
+              Engineering-Psychological Maintenance of Information Technologies,
+            </span>Defended a diploma thesis on the topic "Defect Tracking System for Software Products and Its Ergonomic Support". 
+            Technology stack used in the process of development:
+          </p>
+          <div class="columns">
+            <ul style="flex: 1;">
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Angular</li>
+              <li>HTML/CSS</li>
+              <li>Webpack/Vite</li>
+              <li>NodeJS</li>
+            </ul>
+            <ul style="flex: 1;">
+              <li>AntDesign/PrimeNg/MUI</li>
+              <li>SASS/LESS</li>
+              <li>Electron</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Figma</li>
+              <li>Git</li>
+              <li>and much more...</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 id="experience_title" class="subtitle">Experience:</h3>
+          <ul class="experience_list">
+            <li>
+              <h4>SilkData (March 2025 - July 2025)</h4>
+              <p>Angular Frontend Development under a service contract.</p>
+            </li>
+            <li>
+              <h4>Independent Web Initiative (November 2024 – January 2025)</h4>
+              <p>Worked on a collaborative web-based solution using React.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+      <div class="section">
+        <article>
+          <h4 id="courses_title" class="subtitle">Courses:</h4>
+          <p>Finished <a class="link" target="_blank" href="https://rs.school/courses/javascript-preschool-ru">RS School
+              «JavaScript/Front-end. Stage 0»</a>.</p>
+          <p>Finished all parts of <a class="link" target="_blank" href="https://rs.school/courses/javascript-ru">RS
+              School
+              «JavaScript/Front-end»</a>.</p>
+        </article>
+        <article>
+          <h4 id="projects">Projects:</h4>
+          <p>- <a class="link" target="_blank"
+              href="https://rolling-scopes-school.github.io/senyavitrazov-JSFE2021Q3/museum/">https://rolling-scopes-school.github.io/senyavitrazov-JSFE2021Q3/museum/</a>
+          </p>
+          <p>- <a class="link" target="_blank"
+              href="https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/songbird-2022q3/">https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/songbird-2022q3/</a>
+          </p>
+          <p>- <a class="link" target="_blank"
+              href="https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/online-zoo/">https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/online-zoo/</a>
+          </p>
+          <p>- <a class="link" target="_blank"
+              href="https://senyavitrazov.github.io/online-store/">https://senyavitrazov.github.io/online-store/</a></p>
+          <p>- <a class="link" target="_blank" href="https://github.com/senyavitrazov/graduation_project">graduation
+              project</a> / <a class="link" target="_blank"
+              href="https://github.com/senyavitrazov/mongo_server">graduation project server</a> </p>
+        </article>
+        <article>
+          <p class="paragraph">Here is an example of the code I wrote, taken from one of the educational projects:</p>
+          <pre id="code-wrapper"><code>&lt;div className={style.columnData}&gt;
     &lt;img className={style.image} src={props.track?.album.images[0].url} alt="img" /&gt;
     &lt;div&gt;
       {props.track &amp;&amp; props.track.id === props.trackId ? (
@@ -105,54 +152,41 @@
   &lt;div className={style.columnDuration}&gt;
     {time.minutes + ':' + (String(time.seconds).length === 1 ? '0' + time.seconds : time.seconds)}
   &lt;/div&gt;</code></pre>
-                </article>
-                <article>
-                    <h4 id="courses_title" class="subtitle">Courses:</h4>
-                    <p>Finished <a class="link" target="_blank" href="https://rs.school/courses/javascript-preschool-ru">RS School
-                            «JavaScript/Front-end. Stage 0»</a>.</p>
-                    <p>Finished all parts of <a class="link" target="_blank" href="https://rs.school/courses/javascript-ru">RS School
-                            «JavaScript/Front-end»</a>.</p>
-                </article>
-                <article>
-                    <h4 id="projects">Projects:</h4>
-                    <p>- <a class="link" target="_blank" href="https://rolling-scopes-school.github.io/senyavitrazov-JSFE2021Q3/museum/">https://rolling-scopes-school.github.io/senyavitrazov-JSFE2021Q3/museum/</a></p>
-                    <p>- <a class="link" target="_blank" href="https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/songbird-2022q3/">https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/songbird-2022q3/</a></p>
-                    <p>- <a class="link" target="_blank" href="https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/online-zoo/">https://rolling-scopes-school.github.io/senyavitrazov-JSFE2022Q3/online-zoo/</a></p>
-                    <p>- <a class="link" target="_blank" href="https://senyavitrazov.github.io/online-store/">https://senyavitrazov.github.io/online-store/</a></p>
-                    <p>- <a class="link" target="_blank" href="https://github.com/senyavitrazov/graduation_project">graduation project</a> / <a class="link" target="_blank" href="https://github.com/senyavitrazov/mongo_server">graduation project server</a> </p>
-                </article>
-            </div>
-            <div class="section">
-                <p class="traits_title">Personal traits:</p>
-                <ul class="list">
-                    <li>a sociable person who quickly finds a common language with people </li>
-                    <li>a keen person who seeks to understand the issue in detail </li>
-                    <li>adaptability and flexibility allows me to be with people on the same "wavelength" </li>
-                    <li>ready to take criticism and learn from other people's experience</li>
-                    <li>non-conflict person at all</li>
-                </ul>
-                <p class="traits_title">Interests:</p>
-                <ul class="list">
-                    <li>applied arts (interior design, jewelery...)</li>
-                    <li>book illustration</li>
-                    <li>architecture</li>
-                    <li>сinematography </li>
-                </ul>
-                <p class="traits_title"> Languages:</p>
-                <ul class="list">
-                    <li>english at an intermediate level</li>
-                    <li>russian at the native speaker level</li>
-                    <li>belarusian as a native language</li>
-                </ul>
-            </div>
-        </main>
-        <footer>
-            <p>If you want to know more about me, please <a class="link" href="mailto:arsenii2509@gmail.com">write to
-                    e-mail</a>.</p>
-            <p>GitHub: <a class="link" target="_blank" href="https://github.com/senyavitrazov">senyavitrazov</a>
-            </p>
-            <p>The year of creation - 2021.</p>
-        </footer>
-    </div>
+        </article>
+      </div>
+      <div class="section">
+        <p class="traits_title">Personal traits:</p>
+        <ul class="list">
+          <li>a sociable person who quickly finds a common language with people </li>
+          <li>a keen person who seeks to understand the issue in detail </li>
+          <li>adaptability and flexibility allows me to be with people on the same "wavelength" </li>
+          <li>ready to take criticism and learn from other people's experience</li>
+          <li>non-conflict person at all</li>
+        </ul>
+        <p class="traits_title">Interests:</p>
+        <ul class="list">
+          <li>applied arts</li>
+          <li>book illustration</li>
+          <li>architecture</li>
+          <li>сinematography</li>
+        </ul>
+        <p class="traits_title"> Languages:</p>
+        <ul class="list">
+          <li>english at an intermediate level</li>
+          <li>russian at the native speaker level</li>
+          <li>belarusian as a native language</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p>If you want to know more about me, please 
+        <a class="link" href="mailto:arsenii2509@gmail.com">
+          write to e-mail
+        </a>
+      </p>
+      </p>
+      <p>The year of creation - 2021</p>
+    </footer>
+  </div>
 </body>
 </html>
