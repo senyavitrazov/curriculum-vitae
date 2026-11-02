@@ -177,7 +177,7 @@ article + article {
 }
 
 .experience {
-  margin: 16px 0 22px;
+  margin: 12px 0 16px;
 }
 
 .experience:last-child {
@@ -296,7 +296,7 @@ footer {
 @media print {
   @page {
     size: A4;
-    margin: 14mm 16mm;
+    margin: 12mm 14mm;
   }
 
   html,
@@ -304,56 +304,90 @@ footer {
     width: auto;
     height: auto;
     background: #fff;
-    font-size: 11pt;
-    line-height: 1.35;
+    font-size: 10.5pt;
+    line-height: 1.32;
   }
 
   .main {
-    max-width: none;
     width: 100%;
+    max-width: none;
     margin: 0;
     padding: 0;
   }
 
   .cv_title {
     margin-top: 0;
+    margin-bottom: 10px;
   }
 
   section,
-  .section {
+  .section,
+  article {
     break-inside: auto;
     page-break-inside: auto;
   }
 
-  article,
-  .experience,
-  .skills p {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
+  /* Не отрываем заголовки от следующего текста */
+  h1,
+  h2,
+  h3,
+  h4,
   .experience_heading {
     break-after: avoid;
     page-break-after: avoid;
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    break-after: avoid;
-    page-break-after: avoid;
+  /* Отдельное место работы желательно держать вместе,
+     но браузер сможет разорвать его, если оно слишком большое */
+  .experience {
+    break-inside: auto;
+    page-break-inside: auto;
+    margin: 10px 0 14px;
+  }
+
+  /* Короткие элементы не делим */
+  .skills p,
+  .experience_heading {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  .list li {
+    margin-bottom: 3px;
   }
 
   p,
   li {
-    orphans: 3;
-    widows: 3;
+    orphans: 2;
+    widows: 2;
+  }
+
+  section,
+  .section {
+    padding: 7px 0;
   }
 
   .avatar {
+    width: 115px;
+    height: 115px;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
+  }
+
+  .info {
+    min-height: 115px;
+  }
+
+  .skills p {
+    margin: 3px 0;
+  }
+
+  footer {
+    margin-top: 7px;
   }
 
   a,
@@ -362,7 +396,7 @@ footer {
     text-decoration: none;
   }
 
-  footer {
-    margin-top: 10mm;
+  .print-button {
+    display: none;
   }
 }
