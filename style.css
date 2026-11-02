@@ -1,266 +1,294 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 * {
-	padding: 0;
-	margin: 0;
-	border: 0;
-	font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 *,
 *:before,
 *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 :focus,
 :active {
-	outline: none;
+    outline: none;
 }
 
 a:focus,
 a:active {
-	outline: none;
+    outline: none;
 }
 
 nav,
 footer,
 header,
 aside {
-	display: block;
+    display: block;
 }
 
 html,
 body {
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-	font-family: inherit;
-}
-
-input::-ms-clear {
-	display: none;
-}
-
-button {
-	cursor: pointer;
-}
-
-button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 a,
 a:visited {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-/*ul li {list-style: none;}*/
 img {
-	vertical-align: top;
+    vertical-align: top;
 }
-
-/*h1,h2,h3,h4,h5,h6 {font-size:inherit;font-weight: 400;}*/
-/*--------------------*/
 
 .main {
-	padding: 30px;
-	max-width: 1024px;
-	margin: 0 auto;
+    padding: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .cv_title {
-	width: 100%;
-	padding: 10px 0;
-	margin: 15px 0;
-	border-bottom: 2px solid #D0D7DE;
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-bottom: 2px solid #D0D7DE;
 }
 
 .cv_title h1 {
-	font-size: 24px;
+    font-size: 24px;
 }
 
 .connect li {
-	list-style: none;
+    list-style: none;
 }
 
 #name {
-	font-weight: 700;
-	font-size: 20px;
-	text-transform: uppercase;
-	padding: 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.position {
+    margin: 1px 0 5px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 #update {
-	font-weight: normal;
-	font-size: 85%;
+    font-weight: normal;
+    font-size: 85%;
 }
 
 section,
 .section {
-	width: 100%;
-	font-size: 18px;
-	line-height: 22px;
-	padding: 10px 0;
-	border-bottom: 2px solid #D0D7DE;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.45;
+    padding: 10px 0;
+    border-bottom: 2px solid #D0D7DE;
 }
 
 .info {
-	height: auto;
-	position: relative;
+    min-height: 145px;
+    position: relative;
 }
 
 .side_info {
-	margin: 5px 0 0 0;
+    margin: 8px 0 0 0;
+    max-width: 65%;
 }
 
 .avatar {
-	height: 100%;
-	display: block;
-	border-radius: 50%;
-	position: absolute;
-	top: -10px;
-	right: 0;
-	border: 1px solid black;
-	filter: brightness(97%);
-}
-
-.side_info {
-	max-width: 60%;
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    border: 1px solid black;
+    filter: brightness(97%);
 }
 
 .list li {
-	font-size: 18px;
-	margin: 0 0 5px 20px;
+    font-size: 18px;
+    margin: 0 0 6px 20px;
 }
 
 .link {
-	color: royalblue;
+    color: royalblue;
 }
 
 .link:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .abbreviation {
-	font-style: oblique;
-}
-
-.columns {
-	padding: 10px 20px;
-	display: flex;
+    font-style: oblique;
 }
 
 .traits_title,
-#courses_title,
-#projects {
-	margin: 10px 0;
-	font-weight: 700;
-	font-size: 18px;
-	text-transform: uppercase;
-	text-decoration: underline;
+#courses_title {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-#courses_title, 
-#projects {
-	text-decoration: none;
+.traits_title {
+    text-decoration: underline;
+}
+
+#courses_title {
+    text-decoration: none;
 }
 
 h1,
 h3 {
-	margin: 5px 0;
-	font-weight: 700;
-	font-size: 20px;
-	text-transform: uppercase;
+    margin: 5px 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.paragraph {
-	margin-top: 10px;
+h4 {
+    font-size: 18px;
 }
 
-#code-wrapper {
-	display: block;
-	font-size: 15px;
-	background-color: #F4F6F8;
-	width: 78%;
-	margin: 20px 0;
-	padding: 15px 0 15px 30px;
-	border: 1px solid #D0D7DE;
-	border-radius: 1%;
+article + article {
+    margin-top: 18px;
 }
 
-#code-wrapper code {
-	padding: 0;
-	width: 100%;
+.experience {
+    margin: 16px 0 22px;
+}
+
+.experience:last-child {
+    margin-bottom: 5px;
+}
+
+.experience_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+    margin-bottom: 7px;
+}
+
+.experience_heading h4 {
+    font-weight: 700;
+}
+
+.experience_heading span {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.experience_list {
+    margin-top: 8px;
+}
+
+.skills p {
+    margin: 6px 0;
+}
+
+.projects_list {
+    margin-top: 8px;
 }
 
 footer {
-	position: relative;
-	margin: 1% 0;
-	font-size: 18px;
-	line-height: 22px;
-}
-
-a img {
-	width: 170px;
-	position: absolute;
-	right: 20px;
-	top: 20px;
-}
-
-@media (max-width: 1000px) {
-	#code-wrapper {
-		width: 100%;
-		overflow: scroll;
-	}
+    position: relative;
+    margin: 1% 0;
+    font-size: 18px;
+    line-height: 1.45;
 }
 
 @media (max-width: 600px) {
-	#code-wrapper {
-		font-size: 3vw;
-		line-height: 4vw;
-		padding: 5px;
-		overflow: scroll;
-	}
+    .main {
+        padding: 20px;
+    }
 
-	.info {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 0;
+    }
 
-	.avatar {
-		position: relative;
-		height: 40vh;
-	}
+    .avatar {
+        position: relative;
+        top: 0;
+        right: auto;
+        width: 180px;
+        height: 180px;
+        margin-bottom: 12px;
+    }
 
-	.side_info {
-		margin-top: 20px;
-		text-align: center;
-	}
+    .side_info {
+        max-width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
 
-	h1,
-	h2,
-	h3,
-	h4,
-	.traits_title {
-		text-align: center;
-	}
+    .experience_heading {
+        display: block;
+    }
+
+    .experience_heading span {
+        display: block;
+        margin-top: 4px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .traits_title,
+    #courses_title,
+    .position,
+    #update {
+        text-align: center;
+    }
+}
+
+@media print {
+    body {
+        background: white;
+    }
+
+    .main {
+        max-width: none;
+        padding: 0;
+    }
+
+    a {
+        color: black !important;
+    }
+
+    section,
+    .section,
+    .cv_title {
+        break-inside: avoid;
+    }
+
+    .experience {
+        break-inside: avoid;
+    }
 }
